@@ -1,10 +1,9 @@
+## Question:- 
 ```python
-#### Question:- 
 Concatenate
 Two or more arrays can be concatenated together using the concatenate function with a tuple of the arrays to be joined:
 
 import numpy
-
 array_1 = numpy.array([1,2,3])
 array_2 = numpy.array([4,5,6])
 array_3 = numpy.array([7,8,9])
@@ -59,9 +58,9 @@ Sample Output
  [3 4]
  [3 4]] 
 ```
-======================================================================================================================
+-------------------------------------------------------------------------------------------------------------------------
 
-### Solution
+## Solution
 ```python
 import numpy as np
 
