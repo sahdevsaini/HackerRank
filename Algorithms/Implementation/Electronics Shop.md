@@ -1,9 +1,8 @@
 ## Question
+```python
 A person wants to determine the most expensive computer keyboard and USB drive that can be purchased with a give budget. Given price lists for keyboards and USB drives and a budget, find the cost to buy them. If it is not possible to buy both items, return .
 
 Example
-
-
 
 The person can buy a , or a . Choose the latter as the more expensive option and return .
 
@@ -51,10 +50,11 @@ Sample Output 1
 Explanation 1
 
 There is no way to buy one keyboard and one USB drive because , so return .
-
+```
 
 ### Solution
 
+```python
 def getMoneySpent(keyboards, drives, b):
     l = []
     for i in keyboards:
@@ -65,3 +65,4 @@ def getMoneySpent(keyboards, drives, b):
         return max(l)
     else:
         return -1
+```
