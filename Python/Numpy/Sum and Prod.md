@@ -1,3 +1,4 @@
+## Question:- 
 ```python
 sum
 
@@ -51,7 +52,7 @@ Sample Output
 24
 ```
 
-### Solution
+## Solution
 
 ```python
 import numpy as np
