@@ -1,4 +1,5 @@
 ## Question:-
+```sql
 Consider  and  to be two points on a 2D plane.
 
  happens to equal the minimum value in Northern Latitude (LAT_N in STATION).
@@ -12,8 +13,8 @@ Input Format
 The STATION table is described as follows:
 
 where LAT_N is the northern latitude and LONG_W is the western longitude.
-
-========================================================================================================================
+```
+---------------------------------------------------------------------------------------------------------
 
 ## Solution:- 
   --- For Sql Server 
