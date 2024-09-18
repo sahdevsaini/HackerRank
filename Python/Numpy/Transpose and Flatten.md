@@ -1,6 +1,6 @@
 ```python
-Transpose
-
+## Question
+###Transpose
 We can generate the transposition of an array using the tool numpy.transpose.
 It will not affect the original array, but it will create a new array.
 
@@ -53,7 +53,7 @@ Sample Output
 ```
 ================================================================================================================
 
-### Solution
+## Solution
 
 ```python
 import numpy as np
