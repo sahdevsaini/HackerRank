@@ -1,5 +1,5 @@
+## Question :- 
 ```python
-### Question :- 
 dot
 
 The dot tool returns the dot product of two arrays.
@@ -48,7 +48,7 @@ Sample Output
  [15 22]]
 ```
 --------------------------------------------------------------------------------------------------------------
-### Solution
+## Solution
 ```python
 import numpy as np
 N = int(input())
