@@ -1,3 +1,4 @@
+## Question
 ```python
 min
 
@@ -57,7 +58,7 @@ Sample Input
 Sample Output
 3
 ```
-### Solution
+## Solution
 
 ```python
 import numpy as np
