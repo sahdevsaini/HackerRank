@@ -70,16 +70,18 @@ Print the array built using numpy.zeros and numpy.ones tools and you get the res
 ```
 # Solution
 ```python
-import numpy as np 
-s = list(map(int,input().split()))
-l1 = []
-for i in s:
-    l1.append(np.zeros([i,i]))   
-zerosArr = np.array(l1,dtype=int)
-l2 = []
-for j in s:
-    l2.append(np.ones([i,i]))   
-onesArr = np.array(l2,dtype=int)
+import numpy as np
+
+s = list(map(int, input().split()))
+
+# Create a single zeros array with dimensions specified by the elements in s
+zerosArr = np.zeros(tuple(s), dtype=int)
+
+# Create a single ones array with dimensions specified by the elements in s
+onesArr = np.ones(tuple(s), dtype=int)
+
 print(zerosArr)
+
 print(onesArr)
+
 ```
