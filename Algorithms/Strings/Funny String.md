@@ -58,9 +58,9 @@ The difference list for string  is [1, 21, 2] and for string  is [2, 21, 1].
 # Solution:
 ```python
 def funnyString(s):
-    r = s[::-1]                     # Reversing the String 
-    s_ascii = [ord(i) for i in s]   # finding the Ascii value of string words & storing into list 
-    r_ascii = [ord(j) for j in r]   # finding the Ascii value of string words & storing into list
+    r = s[::-1]                                       # Reversing the String 
+    s_ascii = [ord(i) for i in s]                       # finding the Ascii value of string words & storing into list 
+    r_ascii = [ord(j) for j in r]                         # finding the Ascii value of string words & storing into list
     s_abso_diff = [abs(s_ascii[i]-s_ascii[i+1]) for i in range(len(s_ascii)-1)]   # finding Absolute differnce 
     r_abso_diff = [abs(r_ascii[j]- r_ascii[j+1]) for j in range(len(r_ascii)-1)]  # finding Absolute differnce 
     if s_abso_diff == r_abso_diff:
