@@ -15,7 +15,7 @@ Your answer should resemble something like:
 3/4  
 (This is NOT the answer, just a demonstration of the answer format.)
 ```
-````
+-----
 ### Solution
 ```python
 diff_sum = 0
