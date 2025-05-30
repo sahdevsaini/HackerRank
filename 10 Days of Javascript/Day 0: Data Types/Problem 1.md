@@ -41,7 +41,7 @@ The value of  passed to our main function in this Sample Case was Welcome to 10 
 ```
 -------------------------------
 ```Javascript
-unction greeting(parameterVariable) {
+Function greeting(parameterVariable) {
     // This line prints 'Hello, World!' to the console:
     console.log('Hello, World!');
     console.log(parameterVariable)
